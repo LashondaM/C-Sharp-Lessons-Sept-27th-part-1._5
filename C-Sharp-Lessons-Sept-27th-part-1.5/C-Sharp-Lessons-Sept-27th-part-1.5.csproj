@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>C_Sharp_Lessons_Sept_27th_part_1._5</RootNamespace>
+  </PropertyGroup>
+
+</Project>
