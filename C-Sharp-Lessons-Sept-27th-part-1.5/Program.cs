@@ -7,6 +7,36 @@ namespace C_Sharp_Lessons_Sept_27th_part_1._5
         static void Main(string[] args)
         {
 
+            var Jason =
+                new Movie("Jason", "Horror", "R", 1975, 87, "Vanderbolt");
+
+            var Halloween = 
+                new Movie("Halloween", "Horror", "R", 1985, 121, "Jack");
+
+            var Marvel = 
+                new Movie("Marvel", "Action", "PG-13", 2019, 150, "Miller");
+
+            var DC =
+                new Movie("DC", "Action", "PG-13", 2020, 101, "Tom");
+
+            var TheGrinch =
+                new Movie("The Grinch", "Kids", "G", 1969, 70, "Cruise");
+
+            Console.WriteLine(Jason.print());
+            Console.WriteLine(Halloween.print());
+            Console.WriteLine(Marvel.print());
+            Console.WriteLine(DC.print());
+            Console.WriteLine(TheGrinch.print());
+
+            var m = new Movie();
+            var n = new Movie();
+            var p = new Movie();
+            var r = new Movie();
+            var s = new Movie();
+            var x = m.GetRating();
+
+            //
+
             var mathlib = new MathLib();
 
             //var mod = mathlib.Mod(17, 2);
